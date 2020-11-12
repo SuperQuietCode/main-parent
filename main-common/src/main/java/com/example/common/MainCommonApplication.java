@@ -1,16 +1,13 @@
-package com.example.demo;
+package com.example.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * @author ZhaoXin
- */
 @SpringBootApplication
-public class MainApiApplication {
+public class MainCommonApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MainApiApplication.class, args);
+        SpringApplication.run(MainCommonApplication.class, args);
     }
 
 }
