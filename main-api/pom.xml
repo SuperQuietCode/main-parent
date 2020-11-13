@@ -6,10 +6,9 @@
         <groupId>com.example</groupId>
         <artifactId>main-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>main-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>main-api</name>
     <description>Demo project for Spring Boot</description>
@@ -46,6 +45,13 @@
 
     <build>
         <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
